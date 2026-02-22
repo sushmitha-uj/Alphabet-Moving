@@ -1,0 +1,1 @@
+Write a HTML and CSS code to Create a Animation such that Alphabets are displaying on the Screen with a finite amount of time. Use Css Properties to change or to move forward the Alphabets.

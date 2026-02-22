@@ -1,0 +1,174 @@
+*{
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+}
+
+body{
+       background-color: lightblue;
+       display: flex;
+       place-content: center;
+       height: 100%;
+       width: 100%;
+       margin-top: 10%;
+       overflow: hidden;
+
+}
+
+h1{
+    font-size: 190px;
+    position:relative;
+
+    &:after,
+    &:before {
+               content: 'A';
+               color: transparent;
+               display: block;
+               -webkit-text-stroke: 6px #fff;
+               animation:alpha 15s forwards infinite;
+               text-shadow: -10px -1px 0 #1FB3EE,
+    }
+    &:after{
+        position:absolute;
+        top: 100%;
+        transform:rotateX(65deg)scale(3);
+        filter: blur(11px);
+    }
+}
+
+@keyframes alpha{
+    0% {
+        content: 'A';
+        color: aliceblue;
+    }
+
+    4% {
+        content: 'B';
+        color:beige;
+    }
+
+    8% {
+          content: 'C';
+          color:cadetblue;
+    }
+
+    12% {
+          content: 'D';
+          color:darkblue ;
+
+    }
+
+    16%{
+        content: 'E';
+        color:skyblue;
+
+    }
+
+    20% {
+        content: 'F';
+        color: firebrick;
+
+    }
+
+    24% {
+           content: 'G';
+           color: rgb(245, 210, 9);
+    }
+
+    28% {
+           content: 'H';
+           color: hotpink;
+    }
+
+    32% {
+               content: 'I';
+               color:indianred;
+    }
+
+    36% {
+           content: 'J';
+           color:ivory;
+    }
+
+    40% {
+          content: 'K';
+          color: khaki;
+    }
+
+    44% {
+           content: 'L';
+           color: lawngreen;
+    }
+
+    48% {
+          content: 'M';
+          color: magenta;
+
+    }
+
+    52% {
+          content: 'N';
+          color: maroon;
+    }
+
+    56% {
+          content: 'O';
+          color: orange;
+    }
+
+    60% {
+           content: 'P';
+           color: purple;
+    }
+
+    64% {
+           content: 'Q';
+           color: plum;
+    }
+
+    68% {
+           content: 'R';
+           color: red;
+    }
+
+    72% {
+           content: 'S';
+           color: seagreen;
+    }
+
+    76% {
+          content: 'T';
+          color: tan;
+    }
+
+    80% {
+           content: 'U';
+           color: thistle;
+    }
+
+    84% {
+          content: 'V';
+          color: violet;
+    }
+
+    88% {
+           content: 'W';
+           color: wheat;
+    }
+
+    92% {
+           content: 'X';
+           color: whitesmoke;
+    }
+
+    96% {
+           content: 'Y';
+           color: yellow;
+    }
+
+    100% {
+              content: 'Z';
+              color: yellowgreen;
+    }
+
+}
